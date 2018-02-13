@@ -12,4 +12,4 @@ npm start
 
 ** Why do I need to webpack the node code as well? **
 
-> Because react uses `exports` keyword which is not understood by node, by using webpack to compile our node code to es2015 we can use the `import` keyword.
+> Because react uses `exports` keyword which is not understood by node, by using webpack to compile our node code, we can load the exported react component using the `import` keyword.
