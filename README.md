@@ -8,7 +8,8 @@ npm start
 ```
 
 ## Approach
-> Bundle all react code using webpack, then render the main component in node using `renderToString`.
+
+Bundle all react code using webpack, then render the main component in node using `renderToString`.
 
 **Why do I need to webpack the node code as well?**
 
